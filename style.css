@@ -362,7 +362,7 @@ tr.fuente {
 }
 
 /* Estilos para tablet */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     header {
         padding: 0,5em;
         height: 125px;
@@ -452,7 +452,7 @@ tr.fuente {
     
 }
 /* Estilos para celular*/
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     header {
         padding: 0,5em;
         height: 125px;
