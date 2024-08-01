@@ -452,102 +452,86 @@ tr.fuente {
     
 }
 /* Estilos para celular*/
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     header {
-        padding: 0,5em;
-        height: 125px;
-
+        width: 100%;
     }
-    #logo{
-        height: 65px;  
+    #logo {
+        height: 60px; 
+        margin-bottom: 5px;  
     }
     header h1 {
-        margin-left: 0;
-        text-align: start;
-        width: 100%;
-        font-size: 1.8em;
-        margin-bottom: 0.25em;
-        margin-left: 2em;
+        font-size: 1.2em;  
+        margin: 0;
+        color: white;
+        text-align: center;
     }
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin: 0.5em 0;
-    }
-
+    
+}
     main {
-        width: 95%;
-        margin-top: 8em;
+        width: 100%;
+        padding: 1em;
+        box-sizing: border-box;
     }
     .capitals-title {
         font-size: 18px;
-    }    
+        text-align: center;
+    }
     .container-box {
-        grid-template-columns: repeat(2, minmax(200px, 1fr));
-        gap: 0,5em;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5em;
+        justify-items: center;
     }
     .box {
         width: 100%;
-        height: auto;
         padding: 10px;
         border: 1px solid #cccccc;
         border-radius: 10px;
         background: #E5DDC5;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
     }
     .box img {
-        width: 10em;
-        height: 8em;
+        width: 80%;
+        height: auto;
         border-radius: 10px;
     }
     .box h2 {
-        font-size: 1.2em;
+        font-size: 1em;
         margin-top: 10px;
     }
     .box .container-p {
         width: 100%;
-        height: auto;
-        position: relative;
-        overflow: hidden;
         padding: 10px;
-        opacity: 1;
     }
     .box p {
         font-size: 0.9em;
         color: #333333;
-        font-weight: 400;
-        opacity: 1;
-        transform: none;
-        transition: none;
     }
-    .box:hover {
-        background: #FFFDB5;
-        transform: none;
-    }
-    .box:hover img {
-        transform: none;
-        transition: none;
-    }
-    .box:hover h2 {
-        transform: none;
-        transition: none;
-    }
-    .box:hover .container-p p {
-        transform: none;
-        opacity: 1;
-        transition: none;
-    }
-
     .video-container {
         grid-template-columns: repeat(2, 1fr);
+        gap: 0.5em;
     }
-    
     .video-container iframe {
-        width: 220px;
+        width: 100%;
         height: auto;
         border-radius: 4px;
     }
-}
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1em 0;
+        font-size: 0.8em;
+    }
+    th, td {
+        padding: 0.5em;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+    th {
+        background-color: #FFFDB5;
+    }
 
+    .contact-footer{
+        margin-left: 10px;
+    }
