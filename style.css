@@ -203,7 +203,7 @@ tr.fuente {
 
 .box {
     width: 100%;
-    width: 260px;
+    width: 250px;
     height: 320px;
     margin: 12px;
     padding: 20px;
@@ -467,7 +467,6 @@ tr.fuente {
         text-align: center;
     }
     
-}
     main {
         width: 100%;
         padding: 1em;
@@ -535,3 +534,4 @@ tr.fuente {
     .contact-footer{
         margin-left: 10px;
     }
+}
